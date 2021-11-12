@@ -23,7 +23,7 @@ const cardView = (cardInfo) => {
      <div class="card">
      
         <!--card image-->
-        <div class="card__image" style="background-image: url(${cardInfo.img}); background-size: cover ">
+        <div class="card__image" style="background-image: url(${cardInfo.img});">
             <a href="#">
             <i class="material-icons card__playIcon">play_arrow</i>
             </a>
